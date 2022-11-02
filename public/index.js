@@ -5,6 +5,8 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
 
+{ (<h1>Daks Chat app</h1>) }
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });

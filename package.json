@@ -1,0 +1,37 @@
+{
+  "name": "projectnumber2-1",
+  "version": "0.0.1",
+  "description": "**chat room style**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakPruett/ProjectNumber2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DakPruett/ProjectNumber2/issues"
+  },
+  "homepage": "https://github.com/DakPruett/ProjectNumber2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "sequelize": "^6.25.3",
+    "socket.io": "^4.5.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "^2.1.2"
+  }
+}

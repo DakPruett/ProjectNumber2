@@ -65,8 +65,9 @@ body {
 
 #messages>li {
     padding: 0.5rem 1rem;
+    color: black;
 }
 
 #messages>li:nth-child(odd) {
-    background: #000000;
+    background: #ffffff;
 }
